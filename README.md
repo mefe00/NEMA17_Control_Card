@@ -25,6 +25,14 @@
 * `/production`: Üretime hazır Gerber ve Drill dosyaları.
 * `/software`: Kartın robot kol eksenlerindeki motorları kontrolü için hazırlanmış gömülü kodu.
 
+## Tavsiyeler
+
+* Güç girişine 50V / 1000uF seviyelerinde bir elektrolit kapasitör eklenmesi.
+* Sürücülerin bozulması durumları düşünüldüğü için modül olarak yerleştirilmiştir ve modulün altı boş olduğu için burayada 50V / 220uF seviyelerinde elektrolit kapasitör eklenmesi.
+* Daha kararlı bir çalışma olabilmesi için sürücü üzerine soğutucu (heatsink) yerleştirin.
+* Daha soğuk bir çalışma için soğutu bloğu buck converter üzerinede yerleştirebilirsiniz.
+
+
 ## Diğer Görseller
 
 <img width="808" height="816" alt="resim" src="https://github.com/user-attachments/assets/b7679888-5ed1-4ed9-85e3-b62b688bd842" />
