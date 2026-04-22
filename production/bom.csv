@@ -1,0 +1,54 @@
+Designator,Footprint,Quantity,Value,LCSC Part #,Description
+"C1, C2",1206,2,2.2uF,C50254,"Ceramic Capacitor 2.2uF 50V X7R 10%
+"
+"C10, C12, C15, C19, C20, C21, C26, C27",603,8,100nF,C14663,
+"C13, C16, C9",603,3,10nF,C100042 ,Soft-Start (SS/TR) kapasitörü.
+"C17, C18, C23, C25, C28",603,5,1uF,C15849,
+"C22, C24",603,2,20pF,C1648 ,
+C3,603,1,0.1uF,C53084455,"C3 giriş filtresi, C8 ise BOOT kapasitörü 
+"
+C4,603,1,6800pF,C107097,"Kompanzasyon (COMP) ağı kapasitörü.
+"
+C5,603,1,39pF,C107049,Kompanzasyon (COMP) ağı yüksek frekans kapasitörü (NP0/C0G dielektrik).
+"C6, C7",805,2,47uF,C6119904,"5V çıkış hattı filtre kapasitörleri. 5V için 10V voltaj dayanımı yeterlidir.
+"
+C8,603,1,10uF,C53084455,
+D1,D_SMA,1,B260,C109094,"60V 2A Schottky Diyot. (MCU ve sensörler için 2A fazlasıyla yeterli)
+"
+D2,D_SOD-323,1,1N5819WS,C191023,
+D3,DIO_PESD2CAN_215,1,PESD2CANFD24,C5278878 ,
+D4,603,1,GREEN,C2986048,
+D5,603,1,RED,C183848,
+D6,D_SMB,1,SMBJ26A-13-F,C135062,TVS Diode Unidirectional 26V WM 600W
+FB1,603,1,FerriteBead,C14709,
+J1,AMASS_XT30U-F_1x02_P5.0mm_Vertical,1,Conn_01x02_Socket,,
+"J10, J8, J9",JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,3,Conn_01x04_Socket,C189895,
+"J2, J3",PinHeader_1x02_P2.54mm_Vertical,2,Conn_01x02_Pin,,
+J4,JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,1,Conn_01x04_Socket,,
+"J5, J6",JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal,2,Conn_01x02_Socket,C189893,
+L1,L_6.3x6.3_H3,1,8.2uH,C167222,"6x6x2.8mm SMD Bobin (Sunlord). Doyuma ulaşma akımı 2.5A, bu sistem için ideal.
+
+"
+Q1,SOT-23,1,AO3400A,C20917 ,
+R1,603,1,162k,C2998114,EN (Enable) pini voltaj bölücü alt direnci.
+R11,603,1,2.2k -1k,C22548,
+"R12, R15, R18, R8, R9",603,5,10k,C98220 ,
+R13,603,1,330R,C105881 ,
+"R16, R17",603,2,60R,C85834 ,
+R2,603,1,523k,C5126197,"EN (Enable) pini voltaj bölücü üst direnci.
+"
+R3,603,1,84.5k,C855976,RT/CLK frekans ayar direnci.
+R4,603,1,13k,C137796,Kompanzasyon (COMP) ağı direnci.
+R5,603,1,53.6k,C2930115,"Feedback (FB) üst direnci (Hassas 5V çıkış için %1 tolerans).
+"
+R6,603,1,10.2k,C22772 ,"Feedback (FB) alt direnci (Hassas 5V çıkış için %1 tolerans).
+"
+R7,603,1,100R,C105588 ,
+SW1,SW_Push_1P1T_NO_CK_KMR2,1,SW_Push,C99271,
+U1,LQFP-48_7x7mm_P0.5mm,1,STM32G431CBT6,C529355,MCU 
+U2,SOT-23-5,1,AP2112K-3.3,C51118 ,3.3V LDO
+U3,TI_SO-PowerPAD-8_ThermalVias,1,TPS54360DDA,C465733,"60V, 3.5A Step-Down Converter"
+U4,SOIC-8_3.9x4.9mm_P1.27mm,1,MCP2562-E-SN,C53609 ,CAN entegresi
+U5,MODULE_TMC2209_SILENTSTEPSTICK,1,TMC2209_SILENTSTEPSTICK,,
+U6,TSSOP-14_AMS,1,AS5147P-HTSM,C22426928 ,Encoder
+Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,Crystal_GND24_Small,C7275084,Kristal
